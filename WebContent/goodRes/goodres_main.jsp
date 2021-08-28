@@ -33,9 +33,9 @@
 						"부산진구","북구","사상구","사하구","서구","수영구",
 						"연제구","영도구","중구","해운대구"};
 		
-		HashMap<String, List<GoodResBoardBean>> totalList = new HashMap<>();
-		HashMap<String, List<GoodResBoardBean>> totalTypeList = new HashMap<>();
-		HashMap<String, List<GoodResBoardBean>> foodTypeMap = new HashMap<>();
+		HashMap<String, List<GoodResBoardBean>> totalList = new HashMap<String, List<GoodResBoardBean>>();
+		HashMap<String, List<GoodResBoardBean>> totalTypeList = new HashMap<String, List<GoodResBoardBean>>();
+		HashMap<String, List<GoodResBoardBean>> foodTypeMap = new HashMap<String, List<GoodResBoardBean>>();
 		
 		totalList = (HashMap) request.getAttribute("totalList");
 		totalTypeList = (HashMap) request.getAttribute("totalTypeList");
