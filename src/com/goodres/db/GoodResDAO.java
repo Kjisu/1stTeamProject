@@ -110,7 +110,7 @@ public class GoodResDAO {
 	public HashMap<String, List> getGoodResList() {
 		List<GoodResBoardBean> GoodResList = null;
 
-		HashMap<String, List> totalList = new HashMap<>();
+		HashMap<String, List> totalList = new HashMap<String, List>();
 		GoodResBoardBean grb = null;
 
 		String[] gu = { "강서구", "금정구", "기장군", "남구", "동구", "동래구", "부산진구", "북구", "사상구", "사하구", "서구", "수영구", "연제구", "영도구",
@@ -239,7 +239,7 @@ public class GoodResDAO {
 	public HashMap<String, List> getGoodResTypeList() {
 		List<GoodResBoardBean> goodResTypeList = null;
 
-		HashMap<String, List> totalTypeList = new HashMap<>();
+		HashMap<String, List> totalTypeList = new HashMap<String, List>();
 		GoodResBoardBean grb = null;
 
 		String[] type = { "카페", "밀면", "국밥", "중식", "스시", "정식", "베이커리", "만두", "돈까스" };
@@ -478,7 +478,7 @@ public class GoodResDAO {
 	// getGoodResFoodTypeList();
 	public HashMap<String, List> getGoodResFoodTypeMap() {
 		
-		HashMap<String, List> goodResFoodTypeMap = new HashMap<>();
+		HashMap<String, List> goodResFoodTypeMap = new HashMap<String, List>();
 		List<GoodResBoardBean> goodResFoodTypeList = null;
 		GoodResBoardBean grbb = null;
 		List<String> foodType = new ArrayList<String>();
